@@ -1,14 +1,11 @@
-body {
-  background-color: rgb(252,250,242);
-    margin-left: 200px;
-}
-
 
 <head>
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 <style>
 body {
     font-family: 'Raleway';font-size: 22px;
+    background-color: rgb(252,250,242);
+    margin-left: 200px;
 }
 </style>
 </head>
