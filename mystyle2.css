@@ -39,7 +39,7 @@ header#banner h2 {
   display: inline;
   font-size: 21px;
   font-size: 2.2rem;
-  margin: 0 1px 0 0;
+  margin: 0 100px 0 0;
 }
 
 header#banner nav ul {
@@ -50,9 +50,10 @@ header#banner nav ul {
   padding: 0;
 }
 
+  <! this is to increase the space between Cristiano Mantovani research <--->  cv
 header#banner nav ul li {
   display: inline;
-  margin: 0 20px;
+  margin: 0 5px;
 }
 
 
