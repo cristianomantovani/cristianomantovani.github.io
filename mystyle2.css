@@ -12,14 +12,14 @@ body {
   width: 100%;
   margin: 2px auto;
   max-width: 700px;
-  padding: 0 1px;
+  padding: 0 10px;
   line-height: 1.4;
 }
 
 h1,h2,h3 {line-height: 1.2}
 
 header#banner {
-  margin: 15px 0;
+  margin: 25px 0;
 }
 
 header#banner a {
@@ -39,7 +39,7 @@ header#banner h2 {
   display: inline;
   font-size: 21px;
   font-size: 2.2rem;
-  margin: 0 3px 0 0;
+  margin: 0 8px 0 0;
 }
 
 header#banner nav ul {
@@ -52,7 +52,7 @@ header#banner nav ul {
 
 header#banner nav ul li {
   display: inline;
-  margin: 0 5px;
+  margin: 0 3px;
 }
 
 
