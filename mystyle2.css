@@ -19,7 +19,7 @@ body {
 h1,h2,h3 {line-height: 1.2}
 
 header#banner {
-  margin: 15px 0;
+  margin: 150px 0;
 }
 
 header#banner a {
@@ -39,7 +39,7 @@ header#banner h2 {
   display: inline;
   font-size: 21px;
   font-size: 2.2rem;
-  margin: 0 100px 0 0;
+  margin: 0 1px 0 0;
 }
 
 header#banner nav ul {
