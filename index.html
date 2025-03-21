@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-  <!-- External Stylesheet -->
+  <!-- External Stylesheet (contains your background color!) -->
   <link rel="stylesheet" href="mystyle2.css">
 
   <style>
@@ -21,10 +21,10 @@
       font-size: 17px;
       margin: 0;
       padding: 0;
-      background-color: #fff;
+      /* Do NOT set background-color here so mystyle2.css can apply it */
     }
 
-    #main {
+    .container {
       max-width: 800px;
       margin: 0 auto;
       padding: 40px 20px;
@@ -69,6 +69,7 @@
         flex-direction: column;
         align-items: flex-start;
       }
+
       #content img {
         float: none;
         display: block;
@@ -80,7 +81,7 @@
 </head>
 
 <body>
-  <div id="main">
+  <div class="container">
     <header id="banner">
       <h2><a href="/">Cristiano Mantovani</a></h2>
       <nav>
