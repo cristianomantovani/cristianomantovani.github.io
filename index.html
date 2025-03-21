@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
   <!-- Font Awesome and Academicons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
   <!-- External Stylesheet -->
@@ -19,11 +19,15 @@
     body {
       font-family: 'Source Sans Pro', sans-serif;
       font-size: 17px;
-      margin: 40px;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
     }
 
-    h1, h2, h3 {
-      font-family: 'Merriweather', serif;
+    #main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
     }
 
     #banner {
@@ -49,8 +53,9 @@
 
     #content img {
       float: right;
-      height: 90%;
+      height: auto;
       width: 35%;
+      max-width: 250px;
       object-fit: contain;
       margin-left: 30px;
     }
@@ -58,33 +63,48 @@
     a {
       text-decoration: none;
     }
+
+    @media (max-width: 768px) {
+      #banner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      #content img {
+        float: none;
+        display: block;
+        margin: 20px auto;
+        width: 80%;
+      }
+    }
   </style>
 </head>
 
 <body>
-  <header id="banner">
-    <h2><a href="/">Cristiano Mantovani</a></h2>
-    <nav>
-      <ul>
-        <li><a href="/research" title="research">research</a></li>
-        <li><a href="/cv_mantovani.pdf" title="cv">cv</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div id="main">
+    <header id="banner">
+      <h2><a href="/">Cristiano Mantovani</a></h2>
+      <nav>
+        <ul>
+          <li><a href="/research" title="research">research</a></li>
+          <li><a href="/cv_mantovani.pdf" title="cv">cv</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <div id="content">
-    <img src="/website_cm2.png" alt="Cristiano Mantovani">
+    <div id="content">
+      <img src="/website_cm2.png" alt="Cristiano Mantovani">
 
-    <p>I am a Senior Lecturer at the University of Melbourne.</p>
+      <p>I am a Senior Lecturer at the University of Melbourne.</p>
 
-    <p>My research interests are macroeconomics, labor, and economic geography.</p>
+      <p>My research interests are macroeconomics, labor, and economic geography.</p>
 
-    <p>
-      Contact:<br>
-      <a href="mailto:cristiano.l.mantovani@gmail.com">cristiano.l.mantovani@gmail.com</a> &nbsp;&nbsp;
-      <a href="https://twitter.com/CriMantova"><i class="fab fa-twitter"></i></a> &nbsp;&nbsp;
-      <a href="https://scholar.google.com/citations?user=AQ6PdO0AAAAJ&hl=it&authuser=2&oi=sra"><i class="ai ai-google-scholar-square ai"></i></a>
-    </p>
+      <p>
+        Contact:<br>
+        <a href="mailto:cristiano.l.mantovani@gmail.com">cristiano.l.mantovani@gmail.com</a> &nbsp;&nbsp;
+        <a href="https://twitter.com/CriMantova"><i class="fab fa-twitter"></i></a> &nbsp;&nbsp;
+        <a href="https://scholar.google.com/citations?user=AQ6PdO0AAAAJ&hl=it&authuser=2&oi=sra"><i class="ai ai-google-scholar-square ai"></i></a>
+      </p>
+    </div>
   </div>
 </body>
 </html>
