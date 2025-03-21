@@ -6,82 +6,18 @@
   <meta name="google-site-verification" content="lB9rJOqDhF1w6EYI9e9EaPG4lqR3n0QqYaKLkbPb-UM">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
   <!-- Font Awesome and Academicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-  <!-- External Stylesheet (contains your background color!) -->
+  <!-- Your CSS -->
   <link rel="stylesheet" href="mystyle2.css">
-
-  <style>
-    body {
-      font-family: 'Source Sans Pro', sans-serif;
-      font-size: 17px;
-      margin: 0;
-      padding: 0;
-      /* Do NOT set background-color here so mystyle2.css can apply it */
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
-
-    #banner {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 30px;
-    }
-
-    #banner h2 {
-      font-family: 'Source Sans Pro', sans-serif;
-      font-size: 28px;
-      margin: 0;
-    }
-
-    #banner ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      gap: 20px;
-    }
-
-    #content img {
-      float: right;
-      height: auto;
-      width: 35%;
-      max-width: 250px;
-      object-fit: contain;
-      margin-left: 30px;
-    }
-
-    a {
-      text-decoration: none;
-    }
-
-    @media (max-width: 768px) {
-      #banner {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      #content img {
-        float: none;
-        display: block;
-        margin: 20px auto;
-        width: 80%;
-      }
-    }
-  </style>
 </head>
 
 <body>
-  <div class="container">
+  <div class="main-wrapper">
     <header id="banner">
       <h2><a href="/">Cristiano Mantovani</a></h2>
       <nav>
@@ -93,14 +29,15 @@
     </header>
 
     <div id="content">
-      <img src="/website_cm2.png" alt="Cristiano Mantovani">
+      <img src="/website_cm2.png" alt="Cristiano Mantovani"
+           style="height: auto; width: 35%; object-fit: contain; float: right; margin-left: 20px;" />
 
       <p>I am a Senior Lecturer at the University of Melbourne.</p>
 
       <p>My research interests are macroeconomics, labor, and economic geography.</p>
 
       <p>
-        Contact:<br>
+        Contact:<br />
         <a href="mailto:cristiano.l.mantovani@gmail.com">cristiano.l.mantovani@gmail.com</a> &nbsp;&nbsp;
         <a href="https://twitter.com/CriMantova"><i class="fab fa-twitter"></i></a> &nbsp;&nbsp;
         <a href="https://scholar.google.com/citations?user=AQ6PdO0AAAAJ&hl=it&authuser=2&oi=sra"><i class="ai ai-google-scholar-square ai"></i></a>
