@@ -7,7 +7,7 @@ body {
   font-size: 16px;
   font-size: 1.6rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #313a3d;
+  color: #1E293B;
   background-color: rgb(252,250,242);
   width: 90%;
   margin: 2px auto;
@@ -23,7 +23,7 @@ header#banner {
 }
 
 header#banner a {
-  color: #313a3d;
+  color: #1E293B;
   text-decoration: none;
 }
 
